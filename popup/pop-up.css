@@ -1,0 +1,29 @@
+.dim {
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+.pop-up {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    top: 25%;
+    left: 25%;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px white;
+}
+.img-close {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: block;
+    top: -11px;
+    left: -11px;
+    cursor: pointer;
+}
